@@ -14,7 +14,7 @@ import { verificarAutenticacao } from './autorizar.js';
 const botaoSalvar = document.getElementById('submit');
 botaoSalvar.addEventListener('click', inserirUsuario);
 
-const url = "URL_DO_SEU_BACK_END/usuario";
+const url = "https://atividade-18-alpha.vercel.app/usuario";
 const token = localStorage.getItem('jwt');
 
 async function inserirUsuario(e) {

@@ -23,7 +23,7 @@ import { verificarAutenticacao } from './autorizar.js';
 })();
 
 
-const urlBase = "https://atividade-18-alpha.vercel.app/usuario";
+const urlBase = "https://atividade-18-alpha.vercel.app/auth";
 
 const tabelaCorpo = document.getElementById("tabela-usuarios");
 tabelaCorpo.innerHTML = 'Aguarde...';
